@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Char1 {
     /**
-     * a rédiger avant vendredi soir
+     * Permet de construire le combattant du joueur 1
      */
     public static void creatChar1(){
 

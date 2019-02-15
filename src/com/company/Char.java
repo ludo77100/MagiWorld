@@ -33,6 +33,7 @@ public class Char {
             this.level = level;
     }
 
+    //Les points de vie sont égales au level du joueur multiplié par 5
     public int getHp() {
         hp = level*5;
         return hp;
@@ -83,6 +84,7 @@ public class Char {
                 break;
             default:
                 typesName = ("null");
+                break;
         }
         return typesName;
     }

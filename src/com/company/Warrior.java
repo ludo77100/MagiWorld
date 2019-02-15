@@ -11,4 +11,9 @@ public class Warrior extends Type {
     public void attack2() {
 
     }
+
+    @Override
+    public void warCry() {
+
+    }
 }

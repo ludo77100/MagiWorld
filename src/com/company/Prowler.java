@@ -11,4 +11,9 @@ public class Prowler extends Type {
     public void attack2() {
 
     }
+
+    @Override
+    public void warCry() {
+
+    }
 }
