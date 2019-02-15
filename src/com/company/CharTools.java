@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class CharTools {
-
+/*
     public void creatCharTools() {
 
         Scanner sc = new Scanner(System.in);
@@ -66,5 +66,6 @@ public class CharTools {
         //Affichage des caractéristique du joueur 1
         System.out.println("............ je suis le " +char2.getTypes()+" " +char2.getLevel()+" je possède "+char2.getHp()+" de vitalité, " +char2.getStr()+ " d'agilité et " +char2.getIntell()+ " d'intelligence");
         }
+        */
 
 }
