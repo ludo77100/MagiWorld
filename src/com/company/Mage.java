@@ -13,7 +13,7 @@ public class Mage extends Type {
     }
 
     @Override
-    public void warCry() {
-
+    public String warCry() {
+        return ("Abracadabraaa");
     }
 }

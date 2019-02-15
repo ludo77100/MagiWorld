@@ -13,7 +13,7 @@ public class Prowler extends Type {
     }
 
     @Override
-    public void warCry() {
-
+    public String warCry() {
+        return ("fffiiuu");
     }
 }

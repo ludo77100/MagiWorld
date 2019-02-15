@@ -13,7 +13,7 @@ public class Warrior extends Type {
     }
 
     @Override
-    public void warCry() {
-
+    public String warCry() {
+        return ("Wwwooooaarrrr");
     }
 }
