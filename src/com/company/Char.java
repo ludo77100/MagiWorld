@@ -8,6 +8,7 @@ public class Char {
     private int dex;
     private int intell;
     private int types;
+    private String typesName;
 
     public Char(int level, int hp, int str, int dex, int intell, int types) {
         this.level = level;
@@ -22,8 +23,14 @@ public class Char {
         return level;
     }
 
+    //En attendant de catcher l'exception, si level plus petit que 1, level = 1 et si plus grand que 100, level = 100
     public void setLevel(int level) {
-        this.level = level;
+        if (level < 1 )
+            this.level = 1;
+        else if (level > 100)
+            this.level = 100;
+        else
+            this.level = level;
     }
 
     public int getHp() {
@@ -61,5 +68,22 @@ public class Char {
 
     public void setTypes(int types) {
         this.types = types;
+    }
+        //Pour avoir le nom de la classe en fonction du int types ...
+    public String getTypesName() {
+        switch (types){
+            case 1:
+                typesName = ("Guerrier");
+                break;
+            case 2:
+                typesName = ("Rôdeur");
+                break;
+            case 3:
+                typesName = ("Mage");
+                break;
+            default:
+                typesName = ("null");
+        }
+        return typesName;
     }
 }

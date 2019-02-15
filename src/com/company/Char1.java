@@ -3,7 +3,6 @@ package com.company;
 import java.util.Scanner;
 
 public class Char1 {
-
     /**
      * a rédiger avant vendredi soir
      */
@@ -38,6 +37,6 @@ public class Char1 {
         char1.setIntell(intell);
 
         //Affichage des caractéristique du joueur 1
-        System.out.println("............ je suis le " + char1.getTypes() + " " + char1.getLevel() + " je possède " + char1.getHp() + " de vitalité, " + char1.getStr() + " d'agilité et " + char1.getIntell() + " d'intelligence");
+        System.out.println("............ je suis le " + char1.getTypesName() + " " + char1.getLevel() + " je possède " + char1.getHp() + " de vitalité, " + char1.getStr() + " d'agilité et " + char1.getIntell() + " d'intelligence");
     }
 }
