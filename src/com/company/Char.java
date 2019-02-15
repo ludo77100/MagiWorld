@@ -6,6 +6,6 @@ public class Char {
     int hp;
     int str;
     int dex;
-    int intel;
+    int intell;
 
 }
