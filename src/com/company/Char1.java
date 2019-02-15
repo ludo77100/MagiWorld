@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class Char1 {
 
-    Scanner sc = new Scanner(System.in);
-
     /**
      * a rédiger avant vendredi soir
      */
-    public void creatChar1(){
+    public static void creatChar1(){
 
+        Scanner sc = new Scanner(System.in);
         Char char1 = new Char(0, 0, 0, 0, 0, 0);
 
         System.out.println("Création du personnage du Joueur 1");

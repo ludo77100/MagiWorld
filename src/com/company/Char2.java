@@ -4,15 +4,14 @@ import java.util.Scanner;
 
 public class Char2 {
 
-    Scanner sc = new Scanner(System.in);
-
     /**
      * a rédiger avant vendredi soir
      */
-    
-    public void creatChar2(){
+    public static void creatChar2(){
 
-        Char char2 = new Char(0,0,0,0,0,0);
+        Scanner sc = new Scanner(System.in);
+        Char char2 = new Char(0, 0, 0, 0, 0, 0);
+
         System.out.println("Création du personnage du Joueur 1");
         System.out.println("Veuillez choisi la classe de votre personnage (1 : Guerrier, 2 : Rôdeur, 3 : Mage)");
         int types = sc.nextInt();

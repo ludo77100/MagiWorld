@@ -8,7 +8,8 @@ public class Main {
 
         System.out.println("Bienvenue dans le jeu MagiWorld");
 
-            CharTools creatCharTools = new CharTools();
-            creatCharTools.creatCharTools();
+        Char1.creatChar1();
+        Char2.creatChar2();
+
     }
 }
