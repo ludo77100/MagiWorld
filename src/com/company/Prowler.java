@@ -3,6 +3,11 @@ package com.company;
 public class Prowler extends Type {
 
     @Override
+    public String types() {
+
+    }
+
+    @Override
     public void attack1() {
 
     }

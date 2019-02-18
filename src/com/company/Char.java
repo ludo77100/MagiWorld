@@ -44,7 +44,12 @@ public class Char {
     }
 
     public void setStr(int str) {
-        this.str = str;
+        if (level < 1 )
+            this.level = 1;
+        else if (level > 100)
+            this.level = 100;
+        else
+            this.str = str;
     }
 
     public int getDex() {
@@ -52,7 +57,12 @@ public class Char {
     }
 
     public void setDex(int dex) {
-        this.dex = dex;
+        if (level < 1 )
+            this.level = 1;
+        else if (level > 100)
+            this.level = 100;
+        else
+            this.dex = dex;
     }
 
     public int getIntell() {
@@ -60,7 +70,12 @@ public class Char {
     }
 
     public void setIntell(int intell) {
-        this.intell = intell;
+        if (level < 1 )
+            this.level = 1;
+        else if (level > 100)
+            this.level = 100;
+        else
+            this.intell = intell;
     }
     //Pour avoir le nom de la classe en fonction du int types ...
     public int getTypes() {

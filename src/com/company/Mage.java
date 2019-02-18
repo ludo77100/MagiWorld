@@ -3,6 +3,12 @@ package com.company;
 public class Mage extends Type {
 
     @Override
+    public String types() {
+        String types = ("Mage");
+        return types;
+    }
+
+    @Override
     public void attack1() {
 
     }
