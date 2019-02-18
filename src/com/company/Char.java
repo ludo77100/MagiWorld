@@ -62,16 +62,8 @@ public class Char {
     public void setIntell(int intell) {
         this.intell = intell;
     }
-
+    //Pour avoir le nom de la classe en fonction du int types ...
     public int getTypes() {
-        return types;
-    }
-
-    public void setTypes(int types) {
-        this.types = types;
-    }
-        //Pour avoir le nom de la classe en fonction du int types ...
-    public String getTypesName() {
         switch (types){
             case 1:
                 typesName = ("Guerrier");
@@ -86,6 +78,10 @@ public class Char {
                 typesName = ("null");
                 break;
         }
-        return typesName;
+        return types;
+    }
+
+    public void setTypes(int types) {
+        this.types = types;
     }
 }
