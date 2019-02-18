@@ -38,7 +38,7 @@ public class Char2 {
         char2.setIntell(intell);
 
         //Affichage des caractéristique du joueur 2
-        System.out.println("............ je suis le " +char2.getTypes()+" " +char2.getLevel()+" je possède "+char2.getHp()+" de vitalité, " +char2.getStr()+ " d'agilité et " +char2.getIntell()+ " d'intelligence");
+        System.out.println("............ je suis le " +char2.getTypesName()+" " +char2.getLevel()+" je possède "+char2.getHp()+" de vitalité, " +char2.getStr()+ " d'agilité et " +char2.getIntell()+ " d'intelligence");
 
     }
 }

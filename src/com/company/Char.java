@@ -8,6 +8,7 @@ public class Char {
     private int dex;
     private int intell;
     private int types;
+    private String typesName;
 
     public Char(int level, int hp, int str, int dex, int intell, int types) {
         this.level = level;
@@ -76,8 +77,16 @@ public class Char {
         else
             this.intell = intell;
     }
-    //Pour avoir le nom de la classe en fonction du int types ...
+
     public int getTypes() {
+        return types;
+    }
+
+    public void setTypes(int types) {
+        this.types = types;
+    }
+        //Pour avoir le nom de la classe en fonction du int types ...
+    public String getTypesName() {
         switch (types){
             case 1:
                 typesName = ("Guerrier");
@@ -92,10 +101,6 @@ public class Char {
                 typesName = ("null");
                 break;
         }
-        return types;
-    }
-
-    public void setTypes(int types) {
-        this.types = types;
+        return typesName;
     }
 }
