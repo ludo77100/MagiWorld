@@ -8,7 +8,6 @@ public class Char {
     private int dex;
     private int intell;
     private int types;
-    private String typesName;
 
     public Char(int level, int hp, int str, int dex, int intell, int types) {
         this.level = level;
